@@ -34,7 +34,7 @@ Latest version at https://chrome.google.com/webstore/detail/jira-worklog-helper/
 
 Contact info found at http://www.robertpate.net
 
-Source code at ... to be determined
+Source code at https://github.com/robertpateii/jira-worklog-helper
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
