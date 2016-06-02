@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title>JIRA Worklog Helper Options</title></head>
+<style>
+#project {
+	width: 100px;
+}
+#browse {
+	width: 250px;
+}
+</style>
+<body>
+
+<p>Type a whole number into the URL bar and this this extension will try to open the matching ticked based on your preferred project and path to your JIRA installation.</p>
+
+<p>To disable this feature, leave the preferred project and browse path blank.</p>
+
+<p>
+<label>Preferred Project ID/Code
+	<input type="text" id="project" placeholder="CORE">
+</label>
+</p>
+
+<p>
+<label>Path to JIRA Browse page
+	<input type="text" id="browse" placeholder="https://jira.atlassian.com/browse/">
+</label>
+</p>
+
+<p>
+<button id="save">Save</button>
+<span id="status"></span>
+</p>
+
+<p>
+<a href="https://github.com/robertpateii/jira-worklog-helper">Source Code</a>
+</p>
+
+<script src="options.js"></script>
+</body>
+</html>
