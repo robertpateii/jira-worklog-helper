@@ -18,6 +18,10 @@
     "48" : "off-48.png",
     "128" : "off-128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "options_ui": {
+	  "page": "options.html",
+	  "chrome_style": true
+  }
 }
 
